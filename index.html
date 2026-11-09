@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YourName Portfolio</title>
+  <meta name="description" content="あなたの名前のポートフォリオサイト">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&family=Zen+Maru+Gothic:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="#top" class="logo">✦ YourName</a>
+    <button class="menu-btn" aria-label="メニュー" aria-expanded="false">Menu</button>
+    <nav id="nav">
+      <a href="#works">Works</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#profile">Profile</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- KV -->
+    <section class="kv">
+      <span class="spark s1">✦</span>
+      <span class="spark s2">✧</span>
+      <span class="spark s3">★</span>
+      <span class="spark s4">✦</span>
+      <div class="kv-inner">
+        <p class="kicker">˖ ✩ welcome ✩ ˖</p>
+        <h1 class="kv-title">Portfolio</h1>
+        <p class="kv-sub">キャッチコピーをここに。<br>例）ふわふわで、ちょっとだけ切ない世界。</p>
+        <div class="kv-links">
+          <a href="#works" class="pill">works</a>
+          <a href="#gallery" class="pill">gallery</a>
+          <a href="#profile" class="pill">profile</a>
+        </div>
+      </div>
+      <div class="kv-art" aria-label="メインビジュアルの場所">
+        <!-- 画像を使う場合: <img src="images/kv.webp" alt="メインビジュアル"> -->
+        <span>Main<br>Visual</span>
+      </div>
+    </section>
+
+    <!-- Works -->
+    <section id="works" class="block">
+      <div class="marquee" aria-hidden="true"><div class="track"><span>works ✦ works ✦ works ✦ works ✦ works ✦ works ✦ works ✦ works ✦ </span><span>works ✦ works ✦ works ✦ works ✦ works ✦ works ✦ works ✦ works ✦ </span></div></div>
+      <div class="wrap">
+        <h2>Works</h2>
+        <p class="desc">依頼・個人制作のデジタル作品。</p>
+        <div class="grid grid-3">
+          <a class="work t1" href="#"><div class="ph">🌸</div><h3>作品タイトル 1</h3><p>2026 / 説明</p></a>
+          <a class="work t2" href="#"><div class="ph">🫧</div><h3>作品タイトル 2</h3><p>2026 / 説明</p></a>
+          <a class="work t3" href="#"><div class="ph">🍓</div><h3>作品タイトル 3</h3><p>2025 / 説明</p></a>
+          <a class="work t4" href="#"><div class="ph">⭐</div><h3>作品タイトル 4</h3><p>2025 / 説明</p></a>
+          <a class="work t5" href="#"><div class="ph">🎀</div><h3>作品タイトル 5</h3><p>2025 / 説明</p></a>
+          <a class="work t6" href="#"><div class="ph">🍬</div><h3>作品タイトル 6</h3><p>2024 / 説明</p></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="block alt">
+      <div class="marquee" aria-hidden="true"><div class="track"><span>gallery ✦ gallery ✦ gallery ✦ gallery ✦ gallery ✦ gallery ✦ </span><span>gallery ✦ gallery ✦ gallery ✦ gallery ✦ gallery ✦ gallery ✦ </span></div></div>
+      <div class="wrap">
+        <h2>Gallery</h2>
+        <p class="desc">展示用・アナログ作品など。</p>
+        <div class="grid grid-4">
+          <div class="shot t2">☁️</div>
+          <div class="shot t4">🌟</div>
+          <div class="shot t1">🧸</div>
+          <div class="shot t3">🍰</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Profile -->
+    <section id="profile" class="block">
+      <div class="marquee" aria-hidden="true"><div class="track"><span>profile ✦ profile ✦ profile ✦ profile ✦ profile ✦ profile ✦ </span><span>profile ✦ profile ✦ profile ✦ profile ✦ profile ✦ profile ✦ </span></div></div>
+      <div class="wrap profile">
+        <div class="avatar">🙂</div>
+        <div>
+          <h2>Profile</h2>
+          <p class="name">あなたの名前 / YourName</p>
+          <p class="role">肩書き（例：イラストレーター）</p>
+          <p>ここに自己紹介文を書きます。出身や活動のきっかけ、作品のテーマなどを数行で。</p>
+          <p>画像を使う場合は <code>images/</code> フォルダに写真を入れて、上の絵文字を <code>&lt;img&gt;</code> に差し替えてください。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="block contact">
+      <div class="wrap center">
+        <h2>Contact</h2>
+        <p class="desc">お仕事のご相談はお気軽に。</p>
+        <div class="kv-links">
+          <a class="pill solid" href="mailto:you@example.com">Email</a>
+          <a class="pill" href="https://x.com/your-id">X</a>
+          <a class="pill" href="https://instagram.com/your-id">Instagram</a>
+          <a class="pill" href="https://github.com/your-username">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="foot-title">YourName<br>Portfolio</p>
+    <p class="note">無断転載・自作発言はご遠慮ください。</p>
+    <p>© 2026 YourName</p>
+  </footer>
+
+  <script>
+    const btn = document.querySelector('.menu-btn');
+    const nav = document.getElementById('nav');
+    btn.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open);
+    });
+    nav.addEventListener('click', () => nav.classList.remove('open'));
+  </script>
+</body>
+</html>
